@@ -1,0 +1,37 @@
+---
+$head
+$og
+$head-custom
+$kangxi-analytics
+$google-analytics
+$facebook-api
+$navbar
+$header
+$content
+$footer
+$foot
+$foot-custom
+---
+
+<!DOCTYPE html>
+<html class="no-js" lang="zh-TW">
+  <head>
+    {{$head}}
+    {{$og}}
+    {{$head-custom}}
+    {{$kangxi-analytics}}
+    {{$google-analytics}}
+  </head>
+  <body class="drop">
+    {{$facebook-api}}
+    {{$navbar}}
+    {{$header}}
+    <div id="content" class="container">
+      {{$content}}
+    </div>
+    {{$footer}}
+    <div class="gototop"><i class="fa fa-angle-up"></i></div>
+    {{$foot}}
+    {{$foot-custom}}
+  </body>
+</html>

@@ -1,0 +1,28 @@
+---
+$path
+$brand
+$search
+$member
+---
+
+<div class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" href="{{$path}}">太陽花<span class="mobile-hide">頭子</span>產生器</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+    {{$search}}
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="https://github.com/zenkarsha" target="_blank"><i class="fa fa-github-square"></i> &nbsp Author github</a>
+      </li>
+      {{$member}}
+    </ul>
+  </div>
+</div>

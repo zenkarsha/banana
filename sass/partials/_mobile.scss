@@ -1,0 +1,21 @@
+#show {
+  margin-bottom: 10px;
+  @include at-breakpoint($pad) {
+    display: none;
+  }
+}
+#closepreview {
+  position: fixed;
+  z-index: 10000;
+  width: 90%;
+  bottom: 20px;
+  left: 0;
+  margin-left: 5%;
+  display: none;
+}
+.mobile-hide {
+  display: none;
+  @include at-breakpoint($pad) {
+    display: initial;
+  }
+}
